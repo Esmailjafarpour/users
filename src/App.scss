@@ -1,0 +1,130 @@
+#root{
+    // background-color: black;
+}
+.page-header{
+    color: rgb(5, 157, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    button{
+        width: 30%;
+    }
+}
+
+.HomeTab{
+    display: flex;
+    justify-content: center;
+
+    button{
+        width: 200px;
+        border-radius: 6px;
+        border : 2px solid #ccc;
+        padding: 4px 6px;
+        margin: 0 20px;
+
+        a{
+            width: 100%;
+            height: 87%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+    }
+}
+
+.users{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #57b5a3;
+    border: 2px solid #0c744e;
+    border-radius: 6px;
+    .user{
+        margin: 20px 40px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 6px;
+        background-color: rgb(159, 212, 195) ;
+        box-shadow: 1px 1px 10px #072e27;
+
+        &-button{
+            display: flex;
+            justify-content: space-around;
+            margin: 15px 0;
+
+            button{
+                width: 66%;
+            }
+        }
+    }
+
+
+}
+
+
+
+.row {
+
+    a{
+        text-decoration: none;
+    }
+
+     h4{
+        color :rgb(114, 68, 12);
+     }
+
+     h5{
+        color: rgb(3, 56, 3);
+     }
+}
+
+h1{
+    color: rgb(201, 5, 5);
+}
+
+.Modal{
+    width: 97%;
+    height: 600px;
+    position: fixed;
+    top: 15px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+
+    &-content{
+        width: 50%;
+        height: 300px;
+        position: fixed;
+        top: 132px;
+        background: #06561b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        h4{
+            text-align: center;
+            padding: 15px 0;
+            color: rgb(243, 102, 20);
+            font-size: 25px;
+        }
+
+        &-button{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            width: 70%;
+
+            button{
+                
+            }
+        }
+    }
+
+    
+}
+
